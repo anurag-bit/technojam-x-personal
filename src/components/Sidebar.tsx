@@ -65,14 +65,14 @@ const Sidebar = () => {
               </div>
             </Link>
           </div>
-          <div className="page">
+          {/* <div className="page">
             <Link href="/blog">
               <div className={` flex flex-col items-center p-2 duration-200 text-[#81318F] cursor-pointer hover:text-3xl`}>
                 <HiOutlineNewspaper />
                 <h1 className="text-xs text-center">Blog</h1>
               </div>
             </Link>
-          </div>
+          </div> */}
           <div className="page">
             <Link href="/picturesque">
               <div className={`flex flex-col items-center p-2 duration-200 cursor-pointer text-[#F1377B] hover:text-3xl`}>
@@ -90,22 +90,8 @@ const Sidebar = () => {
               </div>
             </Link>
           </div>
-          <div className="page">
-            <Link href="/team">
-              <div className={`flex flex-col items-center p-2 duration-200 cursor-pointer text-[#F1377B] hover:text-3xl`}>
-              <RiTeamLine />
-                <h1 className="text-xs text-center">Team</h1>
-              </div>
-            </Link>
-          </div>
-          <div className="page">
-            <Link href="/gpt">
-              <div className={`flex flex-col items-center p-2 duration-200 cursor-pointer text-[#F1377B] hover:text-3xl`}>
-              <GiArtificialHive />
-                <h1 className="text-xs text-center">GPT</h1>
-              </div>
-            </Link>
-          </div>
+         
+          
         </div>
         {/* Github Repo Link */}
         <Link
